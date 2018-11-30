@@ -24,7 +24,7 @@ They are available for:
  
  Then we need to configure the `rsyslog.conf` file. In ubuntu this file can be located under /etc/ directory. Specify the ruleset and provide the TCP syslog reception.
  
- ![alt text](https://www.logzilla.net/assets/images/blog/post_images/syslog-essentials/syslog-severities.png)
+ ![alt text](https://github.com/priyanshugandhi/SyslogManager/blob/master/images/Screenshot%20from%202018-11-30%2023-30-03.png)
  
  
 Now move to the /var/log/ directory and type the following commands inside the terminal:
@@ -38,6 +38,8 @@ tail syslog
 
 We can notice different syslog event along with its severity. 
 
+ ![alt text](https://github.com/priyanshugandhi/SyslogManager/blob/master/images/Screenshot%20from%202018-11-30%2023-41-19.png)
+ 
 
 ## Future Integration
 
